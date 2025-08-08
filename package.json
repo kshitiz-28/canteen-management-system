@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@date-io/date-fns": "^3.2.1",
+    "@mui/lab": "^7.0.0-beta.14",
+    "@mui/x-date-pickers": "^8.7.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "date-fns": "^4.1.0",
+    "react-redux": "^9.2.0"
+  }
+}

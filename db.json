@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "employeeId": "ADM001",
+      "name": "Admin User",
+      "password": "admin123",
+      "role": "admin",
+      "balance": 0
+    },
+    {
+      "id": "2",
+      "employeeId": "EMP001",
+      "name": "Kshitiz",
+      "password": "emp123",
+      "balance": 10
+    },
+    {
+      "id": "1751806466177",
+      "name": "minku",
+      "employeeId": "EMP002",
+      "password": "emp002",
+      "role": "employee",
+      "balance": 123
+    },
+    {
+      "id": "1752051038913",
+      "name": "aditya",
+      "employeeId": "EMP0106",
+      "password": "hehe",
+      "role": "employee",
+      "balance": 0
+    },
+    {
+      "id": "1752053674348",
+      "name": "dummy",
+      "employeeId": "EMP004",
+      "password": "emp123",
+      "role": "employee",
+      "balance": 50
+    }
+  ],
+  "items": [
+    {
+      "id": "4",
+      "name": "Coffee",
+      "price": 20
+    },
+    {
+      "id": "1751612753413",
+      "name": "Chai Pakodi",
+      "price": 400
+    },
+    {
+      "id": "1752050755552",
+      "name": "pizza",
+      "price": 199
+    }
+  ],
+  "itemsOfDay": [
+    {
+      "id": "4",
+      "name": "Coffee",
+      "price": 20,
+      "quantity": 3
+    },
+    {
+      "id": "1752050755552",
+      "name": "pizza",
+      "price": 199,
+      "quantity": 3
+    },
+    {
+      "id": "1751612753413",
+      "name": "Chai Pakodi",
+      "price": 400,
+      "quantity": 6
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_1",
+      "employeeId": "EMP001",
+      "itemName": "Chai",
+      "quantity": 1,
+      "price": 10,
+      "totalAmount": 10,
+      "source": "Admin",
+      "timestamp": "2025-07-04T12:30:00Z"
+    },
+    {
+      "id": "1751618845677",
+      "employeeId": "EMP001",
+      "employeeName": "Kshitiz",
+      "itemName": "Sandwich",
+      "price": 30,
+      "quantity": 1,
+      "totalAmount": 30,
+      "source": "Admin",
+      "timestamp": "2025-07-04T08:47:25.677Z"
+    },
+    {
+      "id": "1751618877517",
+      "employeeId": "EMP001",
+      "employeeName": "Kshitiz",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 1,
+      "totalAmount": 20,
+      "source": "Admin",
+      "timestamp": "2025-07-04T08:47:57.517Z"
+    },
+    {
+      "id": "1751967885248",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Sandwich",
+      "price": 30,
+      "quantity": 2,
+      "totalAmount": 60,
+      "source": "Employee",
+      "timestamp": "2025-07-08T09:44:45.248Z"
+    },
+    {
+      "id": "1752050805154",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "pizza",
+      "price": 199,
+      "quantity": 2,
+      "totalAmount": 398,
+      "source": "Admin",
+      "timestamp": "2025-07-09T08:46:45.154Z"
+    },
+    {
+      "id": "1752050955173",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "pizza",
+      "price": 199,
+      "quantity": 2,
+      "totalAmount": 398,
+      "source": "Employee",
+      "timestamp": "2025-07-09T08:49:15.173Z"
+    },
+    {
+      "id": "1752054190434",
+      "employeeId": "EMP001",
+      "employeeName": "Kshitiz",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 2,
+      "totalAmount": 40,
+      "source": "Admin",
+      "timestamp": "2025-07-09T09:43:10.434Z"
+    },
+    {
+      "id": "1752054219872",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 1,
+      "totalAmount": 20,
+      "source": "Admin",
+      "timestamp": "2025-07-09T09:43:39.872Z"
+    },
+    {
+      "id": "1752055055695",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 2,
+      "totalAmount": 40,
+      "source": "Employee",
+      "timestamp": "2025-07-09T09:57:35.695Z"
+    },
+    {
+      "id": "17525804452720.19903475790407843",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Chai Pakodi",
+      "price": 400,
+      "quantity": 1,
+      "totalAmount": 400,
+      "source": "Employee",
+      "timestamp": "2025-07-15T11:54:05.272Z"
+    },
+    {
+      "id": "17526014367660.7564207823958685",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 1,
+      "totalAmount": 20,
+      "source": "Employee",
+      "timestamp": "2025-07-15T17:43:56.766Z"
+    },
+    {
+      "id": "17543181044450.754961672861709",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Coffee",
+      "price": 20,
+      "quantity": 1,
+      "totalAmount": 20,
+      "source": "Employee",
+      "timestamp": "2025-08-04T14:35:04.445Z"
+    },
+    {
+      "id": "17543181044530.009711952264484736",
+      "employeeId": "EMP002",
+      "employeeName": "minku",
+      "itemName": "Chai Pakodi",
+      "price": 400,
+      "quantity": 1,
+      "totalAmount": 400,
+      "source": "Employee",
+      "timestamp": "2025-08-04T14:35:04.453Z"
+    }
+  ]
+}
